@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Estilo de Input al Enfocar</title>
+    <style>
+        #miInput {
+            border: 2px solid lightgray;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        #miInput:focus {
+            outline: none;
+        }
+    </style>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <input type="text" id="miInput" placeholder="Escribe algo...">
+</body>
+</html>
